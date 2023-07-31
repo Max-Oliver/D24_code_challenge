@@ -1,0 +1,13 @@
+server:
+  port: 8080 #PORT
+  tomcat:
+    max-threads: 5
+  baseUrl: http://localhost:8080
+
+spring:
+  main:
+    web-application-type: reactive
+
+page:
+  test_base_url_director_api: "https://directa24-movies.wiremockapi.cloud/api/movies/search?page=%s"
+  test_default_number: 1

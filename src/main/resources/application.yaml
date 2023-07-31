@@ -1,0 +1,23 @@
+
+server:
+  port: 8080 #PORT
+  tomcat:
+    max-threads: 5
+  baseUrl: http://localhost:8080
+
+spring:
+  application:
+    name: D24_Challenge
+  data:
+    rest:
+      default-page-size: 10
+      max-page-size: 5
+      default-media-type: application/json
+
+logging:
+  level:
+    org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl: ERROR
+
+page:
+  base_url_director_api: "https://directa24-movies.wiremockapi.cloud/api/movies/search?page=%s"
+  default_number: 1
