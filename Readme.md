@@ -51,3 +51,21 @@ The directors name in the list must be ordered in alphabetical order.
     
 The threshold value is 4, so the result must contain directors names with more than 4 movies directed.   
 There are 2 such directors and names in the alphabetical order listed in Sample Output.
+
+# Proposal Solution:
+
+#### Call to the API:
+<img width="1021" alt="image" src="https://github.com/Max-Oliver/D24_code_challenge/assets/37275050/ed882a21-0e2b-4e7a-823c-77f5e6ed1a93">
+
+#### Call to the Endpoint by Umbral:
+<img width="1021" alt="image" src="https://github.com/Max-Oliver/D24_code_challenge/assets/37275050/cca5ef54-a9bb-40c8-bbab-43f407764c23">
+
+
+#### Call to the Endpoint by Page and Umbral:
+<img width="1021" alt="image" src="https://github.com/Max-Oliver/D24_code_challenge/assets/37275050/08ad3e92-ddbe-4478-943d-78c960d2086d">
+
+## Notes:
+In this path:
+> src > main > resources > postman.collection > D24-challenge.json
+
+You will see the collection exported from postman as a JSON file, you can import to postman as a file, and easely check this endpoints.
