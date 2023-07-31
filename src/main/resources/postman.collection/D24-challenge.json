@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "4f57bb39-dedb-4932-98da-882817296dce",
+		"name": "D24-challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6155036",
+		"_collection_link": "https://zerobyone.postman.co/workspace/ZeroByOne~2d8d095d-be3a-472d-8a41-d99da87f663d/collection/6155036-4f57bb39-dedb-4932-98da-882817296dce?action=share&creator=6155036&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GET Dev Mock List of Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://directa24-movies.wiremockapi.cloud/api/movies/search?page=1",
+					"protocol": "https",
+					"host": [
+						"directa24-movies",
+						"wiremockapi",
+						"cloud"
+					],
+					"path": [
+						"api",
+						"movies",
+						"search"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET by Page and Umbral",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/director/page/1/umbral/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"director",
+						"page",
+						"1",
+						"umbral",
+						"1"
+					]
+				},
+				"description": "http://localhost:8080/v1/director/page/1/umbral/1"
+			},
+			"response": []
+		},
+		{
+			"name": "GET By Umbral",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/director/0",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"director",
+						"0"
+					]
+				},
+				"description": "http://localhost:8080/director/0"
+			},
+			"response": []
+		}
+	]
+}
